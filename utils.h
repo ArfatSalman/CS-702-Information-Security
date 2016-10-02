@@ -42,6 +42,15 @@ char int_to_char(int ch, bool lower=false)
 
 }
 
+
+int mod(int i, int j) {
+    if (i % j < 0) {
+        return i+j;
+    }
+    return i % j;
+}
+
+
 int GCD(int a, int b) {
     if (b == 0) {
         return a;
